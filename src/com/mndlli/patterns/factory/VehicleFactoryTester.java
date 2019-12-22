@@ -1,5 +1,13 @@
 package com.mndlli.patterns.factory;
 
+
+/**
+ * Factory tester that demonstrates how factory pattern works.
+ * 
+ * @author fmandelli
+ * @version 1.0
+ *
+ */
 public class VehicleFactoryTester {
     
     public static void main (String[] args) {
@@ -17,8 +25,7 @@ public class VehicleFactoryTester {
         v2.drive();
         
         System.out.println(v3.getType());
-        v3.drive();
-        
+        v3.drive();        
     }
 
 }

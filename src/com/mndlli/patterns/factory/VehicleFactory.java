@@ -1,5 +1,14 @@
 package com.mndlli.patterns.factory;
 
+
+/**
+ * Factory class that returns the correct vehicle 
+ * class instance based on the VehicleType.
+ * 
+ * @author fmandelli
+ * @version 1.0
+ *
+ */
 public class VehicleFactory {
     
     public Vehicle vehicle = null;
@@ -21,8 +30,7 @@ public class VehicleFactory {
         
         default:
             break;
-        }
-        
+        }        
         return vehicle;        
     }
 
